@@ -1,0 +1,20 @@
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .bi:hover,.bi:focus{
+    color: #000;
+    
+}
+.wapps:hover{
+    color: #42b783;
+  }
+  .text-reset:hover{
+    color: #42b783;
+  }
+  .hovers:hover, .sidebars:hover{
+    color: #000;
+    font-weight: bold;
+  
+  }

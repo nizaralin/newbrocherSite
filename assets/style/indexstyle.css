@@ -1,0 +1,134 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.navtop {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  color: black !important;
+ 
+}
+
+
+
+.logo{
+  width: 180px;
+}
+.icon{
+  width: 70px;
+}
+.navitems{
+  align-items: center;
+  margin-left: 3rem;
+}
+.navbar-lights a{
+  color: black !important;
+}
+
+.cscratch{
+  font-family: 'ChickenScratch AOE', sans-serif;
+  font-size: 3.125rem
+}
+.start{
+  padding-top: 15rem;
+  padding-left: 1em;
+  padding-right: 0;
+  text-align: center;
+  
+}
+.carousel-item {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: none;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.navbar-lights .navbar-text a,
+.navbar-light .navbar-text a:hover,
+.navbar-light .navbar-text a:focus {
+  color: rgba(168, 27, 27, 0.9);
+}
+.shape {
+  border-radius:1.25em  ;
+  background: wheat;
+   border: solid;
+ border-color: #f1f2ed;
+ margin-top: 1rem;
+ text-align: center;
+ padding: 0;
+  
+}
+
+.bg-fill{
+  background-color: #f1f2ed;
+}
+.item-row{
+  margin: 0 0rem 0rem 1rem;
+}
+.item{
+  background-color: #fff;
+  border-radius: 1rem;
+  text-align: center;
+  border:#f1f2ed solid;
+  margin-bottom: 1rem;
+
+}
+.item-img{
+  margin-top: 1rem;
+}
+.tags{
+  font-size: 1.5rem;
+}
+.center{
+  
+  text-align: center;
+  
+}
+.card{
+  border-radius: 1.5rem;
+  border: #f1f2ed solid;
+}
+.card-img{
+  border-radius: 1rem;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
