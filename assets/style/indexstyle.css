@@ -19,7 +19,7 @@ margin-bottom: 1rem;
 }
 
 .navbar-brand{
-  font-family: 'ChickenScratch AOE', sans-serif;
+  font-family: 'ChickenScratch AOE', sans-serif !important;
   font-size: 2rem !important;
   padding-left: 2.5rem;
 }
@@ -72,10 +72,6 @@ margin-bottom: 1rem;
   color: black !important;
 }
 
-.cscratch{
-  font-family: 'ChickenScratch AOE', sans-serif;
-  font-size: 3.125rem
-}
 .bodycontainer{
   padding: 0% 5% 0 5%;
 }
@@ -117,10 +113,6 @@ margin-bottom: 1rem;
   color: rgba(168, 27, 27, 0.9);
 }
 .shape {
-  /* border-radius:1.25em  ;
-  background: rgb(227, 233, 231);
-   border: solid;
- border-color:transparent solid; */
  margin-top: 1rem;
  text-align: center;
  padding: 0;
@@ -167,36 +159,6 @@ margin-bottom: 1rem;
 .card-img{
   border-radius: 1rem;
 }
-
-
-/* @media (min-width: 576px) {
-  .bodycontainer-sm, .bodycontainer {
-    max-width: 540px;
-  }
-}
-@media (min-width: 768px) {
-  .bodycontainer-md, .bodycontainer-sm, .bodycontainer {
-    max-width: 720px;
-  }
-}
-@media (min-width: 992px) {
-  .bodycontainer-lg, .bodycontainer-md, .bodycontainer, .bodycontainer {
-    max-width: 960px;
-  }
-}
-@media (min-width: 1200px) {
-  .bodycontainer-xl, .bodycontainer-lg, .bodycontainer-md, .bodycontainer-sm, .bodycontainer {
-    max-width: 1140px;
-  }
-}
-@media (min-width: 1400px) {
-  .bodycontainer-xxl, .bodycontainer-xl, .bodycontainer-lg, .bodycontainer-md, .bodycontainer-sm, .bodycontainer {
-    max-width: 1320px;
-  }
-} */
-
-
-
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
