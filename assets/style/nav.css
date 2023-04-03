@@ -1,0 +1,23 @@
+.navbar{
+    padding-top: 0 !important;
+}
+
+.secnav{
+    background: rgb(206,206,244);
+    background: linear-gradient(90deg, rgba(206,206,244,1) 0%, rgba(238,197,249,1) 41%, rgba(179,237,249,1) 100%) !important;
+}
+
+.navtext:hover,.navtext:focus{
+    color: #000 !important;
+    font-weight: 500;
+    
+}
+.tnav{
+    background: rgb(206,206,244);
+    background: linear-gradient(90deg, rgba(206,206,244,1) 0%, rgba(238,197,249,1) 41%, rgba(179,237,249,1) 100%) !important;
+}
+.brandsubtext {
+    margin-top: -10px !important;
+    margin-bottom: 0rem !important;
+    margin-left: 2.15rem !important;
+}
