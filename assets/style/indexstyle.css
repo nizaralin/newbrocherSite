@@ -16,6 +16,7 @@ background: linear-gradient(90deg, rgba(232,232,244,1) 0%, rgba(244,225,249,1) 4
 
 .carousel-inner{
 margin-bottom: 1rem;
+opacity: .5 !important;
 }
 
 .navbar-brand{
@@ -74,6 +75,7 @@ margin-bottom: 1rem;
 
 .bodycontainer{
   padding: 0% 5% 0 5%;
+  
 }
 .start-1{
   padding-top: 1rem;
@@ -124,6 +126,11 @@ margin-bottom: 1rem;
   border-radius: 50%;
   margin-bottom: 1rem ;
   
+  
+}
+.catround-0{
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 50%;
 }
 
 .bg-fill{
@@ -145,19 +152,51 @@ margin-bottom: 1rem;
 }
 .tags{
   font-size: 1rem;
+  color: black;
+
 }
 .center{
-  
-  text-align: center;
-  
+  text-align: center;  
 }
 .card{
   border-radius: 2rem !important;
   border: #f1f2ed solid;
   
 }
+.text-d-s{
+  color: black;
+  font-size: 0.8rem;
+  }
 .card-img{
   border-radius: 1rem;
+
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  
+} 
+
+swiper-button-prev,.swiper-button-next {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 50%);z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+} 
+
+:root {
+    --swiper-navigation-size: 10px !important;
+    --swiper-theme-color: #f1f2ed !important;
+
 }
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
