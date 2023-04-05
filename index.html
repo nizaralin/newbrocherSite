@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>new_dob_test</title>
-    <link href="https://fonts.cdnfonts.com/css/chickenscratch-aoe-2" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style/test.css">
+    <title>Biscotti-Home</title>
+    <link rel="icon" href="/assets/image/MyLogo.png" type="image/x-icon">
+    <!-- local stylesheets -->
     <link rel="stylesheet" href="assets/style/indexstyle.css">
     <link rel="stylesheet" href="assets/style/footer.css">
     <link rel="stylesheet" href="assets/style/nav.css">
-    <link rel="stylesheet" href="assets/style/lgcard.css">
+<!-- cdn stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://fonts.cdnfonts.com/css/chickenscratch-aoe-2" rel="stylesheet">
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -22,7 +24,7 @@
 
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="bootstrap" viewBox="0 0 118 94">
-            <title>Bootstrap</title>
+            <title></title>
             <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
             </path>
@@ -124,11 +126,11 @@
                             </a>
                         </li>
                         <li>
-                            <a href="index-2.html" class="nav-link text-secondary navtext">
+                            <a href="dash.html" class="nav-link text-secondary navtext">
                                 <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                     <use xlink:href="#speedometer2" />
                                 </svg>
-                                Home-2
+                               Dashboard
                             </a>
                         </li>
                         <li>
@@ -136,7 +138,7 @@
                                 <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                     <use xlink:href="#table" />
                                 </svg>
-                                Brochers
+                                Brocher
                             </a>
                         </li>
                         <li>
@@ -152,7 +154,7 @@
                                 <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                     <use xlink:href="#people-circle" />
                                 </svg>
-                                Customers
+                                Contact
                             </a>
                         </li>
                     </ul>
@@ -200,11 +202,11 @@
                         </a>
                     </li>
                     <li>
-                        <a href="index-2.html" class="nav-link text-dark">
+                        <a href="dash.html" class="nav-link text-dark">
                             <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                 <use xlink:href="#speedometer2" />
                             </svg>
-                            Home-2
+                            Dashboard
                         </a>
                     </li>
                     <li>
@@ -212,7 +214,7 @@
                             <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                 <use xlink:href="#table" />
                             </svg>
-                            brochers
+                            Brocher
                         </a>
                     </li>
                     <li>
@@ -241,13 +243,13 @@
         </div>
     </nav>
     <!-- Navbar End -->
-    <!-- Carousal Start -->
+    
     <main class="bodycontainer ">
-
+<!-- Carousal Start -->
         <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active opacity-25">
-                    <img src="assets/image/BANNER 1.jpg" class="d-block w-100 opacity-25" alt="Sunset Over the City" />
+                <div class="carousel-item active">
+                    <img src="assets/image/BANNER 1.jpg" class="d-block w-100" alt="Sunset Over the City" />
                     <div class="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
                         <p>discription about the first slide.</p>
@@ -295,12 +297,61 @@
         </div>
 
         <!-- Carousal End -->
+        <!-- category mobile start -->
+        <div thumbsSlider="" class="swiper mySwiper d-block d-md-none">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide center">
+                <a href="product.html"><img class="catround-0" src="assets/image/oreo.jpg" /></a>
+                <p class="text-d-s">Premium Cakes</p>
+              </div>
+              <div class="swiper-slide center">
+                <a href="contact.html"><img class="catround-0" src="assets/image/anni.jpg" /></a>
+                <p class="text-d-s">Wedding Cakes</p>
+              </div>
+              <div class="swiper-slide center">
+                <a href="#"><img class="catround-0" src="assets/image/FRUITALISE.jpg" /></a>
+                <p class="text-d-s">Birthday Cakes</p>
+              </div>
+              <div class="swiper-slide center">
+                <a href="#"><img class="catround-0" src="assets/image/rafellow.jpg" /></a>
+                <p class="text-d-s">Anniversary Cakes</p>
+              </div>
+              <div class="swiper-slide center">
+                <a href="#"><img class="catround-0" src="assets/image/rainbow.jpg" /></a>
+                <p class="text-d-s">Baby Cakes</p>
+              </div>
+              <div class="swiper-slide center">
+                <a href="# "><img class="catround-0" src="assets/image/Oreo.jpg" /></a>
+                <p class="text-d-s">Valantain Cakes</p>
+              </div>
+              <div class="swiper-slide center">
+                <a href="#"><img class="catround-0" src="assets/image/Oreo.jpg" /></a>
+                <p class="text-d-s">Cheese Cakes</p>
+              </div>
+              <div class="swiper-slide center">
+                <a href="#"><img class="catround-0" src="assets/image/Oreo.jpg" /></a>
+                <p class="text-d-s">Chocolate Cakes</p>
+              </div>
+              <div class="swiper-slide center">
+                <a href="#"><img class="catround-0" src="assets/image/Oreo.jpg" /></a>
+                <p class="text-d-s">Fontant Cakes</p>
+              </div>
+              <div class="swiper-slide center">
+                <a href="#"><img class="catround-0" src="assets/image/Oreo.jpg" /></a>
+                <p class="text-d-s">Doll Cakes</p>
+              </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+          </div>
+           <!-- category mobile start -->
 
         <!-- Category Section Start -->
-        <div class="">
+        <div class="d-none d-md-block">
             <div class="row center col-md-12">
                 <div class="col-12 col-sm-6 col-md-4 col-xl-2 shape">
-                    <img class="catround" src="assets/image/oreo.png" style="height: 10rem; margin-top: 1rem;" alt="">
+                    <img class="catround" src="assets/image/Oreo.jpg" style="height: 10rem; margin-top: 1rem;" alt="">
                     <h1 class="tags">Fresh Cream Cake</h1><br>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-xl-2 shape">
@@ -308,7 +359,7 @@
                     <h1 class="tags">Anniversary cakes</h2><br>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-xl-2 shape">
-                    <img class="catround" src="assets/image/oreo.png" style="height: 10rem; margin-top: 1rem;" alt="">
+                    <img class="catround" src="assets/image/Oreo.jpg" style="height: 10rem; margin-top: 1rem;" alt="">
                     <h1 class="tags">Wedding Cake</h2><br>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-xl-2 shape">
@@ -316,11 +367,11 @@
                     <h1 class="tags">Birthday cakes</h2><br>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-xl-2 shape">
-                    <img class="catround" src="assets/image/oreo.png" style="height: 10rem; margin-top: 1rem;" alt="">
+                    <img class="catround" src="assets/image/Oreo.jpg" style="height: 10rem; margin-top: 1rem;" alt="">
                     <h1 class="tags">Fresh Cream Cake</h1><br>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-xl-2 shape">
-                    <img class="catround" src="assets/image/truffle.png" style="height: 10rem; margin-top: 1rem;" alt="">
+                    <img class="catround" src="assets/image/truffle.jpg" style="height: 10rem; margin-top: 1rem;" alt="">
                     <h1 class="tags">Anniversary cakes</h2><br>
                 </div>
                 
@@ -328,20 +379,19 @@
         </div>
         <!-- Category Section End -->
 
-        <div class="p-4 p-md-5 mt-3 mb-4 text-white rounded-3 bg-dark">
-            <div class="col-md-6 px-0">
-                <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
-                <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and
-                    efficiently about what’s most interesting in this post’s contents.</p>
-                <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+        <div class="p-4 p-md-5 mt-3 mb-4 rounded-3 bg-lite">
+            <div class=" px-0">
+                <h1 class="display-4 fst-italic">The Best Cake Shope</h1>
+                <p class="lead my-3">MWe providing the best cake receipe to the coustomers.not adding any types ......</p>
+                <p class="lead mb-0"><a href="#" class="fw-bold">Continue reading...</a></p>
             </div>
         </div>
         <!-- Product Section Start -->
         <div class="">
             <div class="row center col-md-12">
                 <div class="col-sm-6 col-md-4 col-xl-3 col-xxl-2 item">
-                    <div class="item-img">
-                        <img src="assets/image/truffle.png" style="height: 12rem;" alt="">
+                    <div class="item-img zoom ">
+                        <a  href=""></a><img class="smcard " src="assets/image/truffle.jpg" style="height: 12rem; background-image: url('assets/image/bg.jpg');" alt="">
                     </div>
                     <div class="item-data"><br>
                         <p class="tags">chocolate truffle cake </p>
@@ -349,17 +399,17 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-3 col-xxl-2 item">
-                    <div class="item-img">
-                        <img src="assets/image/oreo.png" style="height: 12rem;" alt="">
+                    <div class="item-img zoom ">
+                        <img class="smcard" src="assets/image/oreo.jpg" style="height: 12rem; background-image: url('assets/image/bg.jpg');" alt="">
                     </div>
-                    <div class="item-data"><br>
+                    <div class="item-data "><br>
                         <p class="tags">Oreo Cake </p>
                         <h2 class="tags">Rs.750 /kg</h2><br>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-3 col-xxl-2 item">
-                    <div class="item-img">
-                        <img src="assets/image/FRUITALISE.jpg" style="height: 12rem;" alt="">
+                    <div class="item-img zoom">
+                        <img class="smcard" src="assets/image/FRUITALISE.jpg" style="height: 12rem; background-image: url('assets/image/bg.jpg');" alt="">
                     </div>
                     <div class="item-data"><br>
                         <p class="tags">Fruit Alize Cake </p>
@@ -367,8 +417,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-3 col-xxl-2 item">
-                    <div class="item-img">
-                        <img src="assets/image/R-CHOCOLATE.jpg" style="height: 12rem;" alt="">
+                    <div class="item-img zoom">
+                        <img class="smcard" src="assets/image/R-CHOCOLATE.jpg" style="height: 12rem; background-image: url('assets/image/bg.jpg');" alt="">
                     </div>
                     <div class="item-data"><br>
                         <p class="tags">Rich Choholate Cake </p>
@@ -376,8 +426,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-3 col-xxl-2 item">
-                    <div class="item-img">
-                        <img src="assets/image/rafellow.jpg" style="height: 12rem;" alt="">
+                    <div class="item-img zoom">
+                        <img class="smcard" src="assets/image/rafellow.jpg" style="height: 12rem; background-image: url('assets/image/bg.jpg');" alt="">
                     </div>
                     <div class="item-data"><br>
                         <p class="tags">Rafellow Cakes </p>
@@ -385,8 +435,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-3 col-xxl-2 item">
-                    <div class="item-img">
-                        <img src="assets/image/sachir.png" style="height: 12rem;" alt="">
+                    <div class="item-img zoom">
+                        <img class="smcard" src="assets/image/sachir.jpg" style="height: 12rem; background-image: url('assets/image/bg.jpg');" alt="">
                     </div>
                     <div class="item-data"><br>
                         <p class="tags">Chocloate Sachir cake </p>
@@ -394,8 +444,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-3 col-xxl-2 item">
-                    <div class="item-img">
-                        <img src="assets/image/rainbow.jpg" style="height: 12rem;" alt="">
+                    <div class="item-img zoom">
+                        <img class="smcard" src="assets/image/rainbow.jpg" style="height: 12rem; background-image: url('assets/image/bg.jpg');" alt="">
                     </div>
                     <div class="item-data"><br>
                         <p class="tags">Rainbow Cake </p>
@@ -403,8 +453,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-3 col-xxl-2 item">
-                    <div class="item-img">
-                        <img src="assets/image/Hazelnut.png" style="height: 12rem;" alt="">
+                    <div class="item-img zoom">
+                        <img class="smcard" src="assets/image/Hazelnut.jpg" style="height: 12rem; background-image: url('assets/image/bg.jpg');" alt="">
                     </div>
                     <div class="item-data"><br>
                         <p class="tags">Hazelnut Cake </p>
@@ -412,8 +462,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-3 col-xxl-2 item">
-                    <div class="item-img">
-                        <img src="assets/image/Hazelnut (2).png" style="height: 12rem;" alt="">
+                    <div class="item-img zoom">
+                        <img class="smcard" src="assets/image/Hazelnut (2).png" style="height: 12rem; background-image: url('assets/image/bg.jpg');" alt="">
                     </div>
                     <div class="item-data"><br>
                         <p class="tags">Caramel Fudge Cake </p>
@@ -421,8 +471,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-3 col-xxl-2 item">
-                    <div class="item-img">
-                        <img src="assets/image/FnNut.png" style="height: 12rem;" alt="">
+                    <div class="item-img zoom">
+                        <img class="smcard" src="assets/image/FnNut.png" style="height: 12rem; background-image: url('assets/image/bg.jpg');" alt="">
                     </div>
                     <div class="item-data"><br>
                         <p class="tags">Fruit N Nut Cake </p>
@@ -430,8 +480,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-3 col-xxl-2 item">
-                    <div class="item-img">
-                        <img src="assets/image/Rchocoalmond.png" style="height: 12rem;" alt="">
+                    <div class="item-img zoom">
+                        <img class="smcard" src="assets/image/Rchocoalmond.png" style="height: 12rem; background-image: url('assets/image/bg.jpg');" alt="">
                     </div>
                     <div class="item-data"><br>
                         <p class="tags">Rich Choco Almond Cake</p>
@@ -439,8 +489,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-3 col-xxl-2 item">
-                    <div class="item-img">
-                        <img src="assets/image/Strawberry.png" style="height: 12rem;" alt="">
+                    <div class="item-img zoom">
+                        <img class="smcard" src="assets/image/Strawberry.png" style="height: 12rem; background-image: url('assets/image/bg.jpg');" alt="">
                     </div>
                     <div class="item-data"><br>
                         <p class="tags">Strawberry Cake </p>
@@ -450,6 +500,7 @@
             </div>
         </div>
         <!-- Product Section End -->
+        
 
         <!-- Shape Cake Section Start -->
         <div class="">
@@ -470,7 +521,7 @@
                         </div>
                         <div>
                             <hr>
-                            <p>The Images Are Used for presentation & reference only. Design of cake may vary from the
+                            <p >The Images Are Used for presentation & reference only. Design of cake may vary from the
                                 image shown
                                 here </p>
                         </div>
@@ -548,7 +599,7 @@
     <!-- Shape Cake Section End -->
 
     <!-- Footer Start -->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center bg-light py-3 my-0 mt-3 border-top">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center tnav py-3 my-0 mt-3 border-top">
         <div class=" col-md-4 d-flex align-items-center text-center px-4">
             <a href="/contact.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                 <svg class="bi " width="30" height="24">
@@ -559,15 +610,6 @@
         </div>
 
         <ul class="nav col-md-8 justify-content-end list-unstyled d-flex px-4">
-            <!-- <li class="ms-3"><a class="text-muted" href="https://twitter.com/"><svg class="bi" width="24" height="24">
-                          <use xlink:href="#twitter" />
-                        </svg></a></li>
-                    <li class="ms-3"><a class="text-muted" href="https://in.linkedin.com/"><svg class="bi" width="24" height="24">
-                          <use xlink:href="#linkedin" />
-                        </svg></a></li>
-                    <li class="ms-3"><a class="text-muted" href="https://github.com/"><svg class="bi" width="24" height="24">
-                          <use xlink:href="#github" />
-                        </svg></a></li> -->
             <li class="ms-3"><a class="text-muted" href="https://google.com/"><svg class="bi" width="24" height="24">
                         <use xlink:href="#google" />
                     </svg></a></li>
@@ -677,7 +719,7 @@
                                                     class="bi" width="24" height="24">
                                                     <use xlink:href="#call" />
                                                 </svg></a></i><a class="text-reset text-decoration-none"
-                                            href="tel:+919846984800"> + 91
+                                            href="tel:9846984800"> + 91
                                             9846984800</a></p>
                                     <p><i class="fas fa-phone me-3"><a class="text-muted"
                                                 href="https://wa.me/919048007530 "><svg class="bi wapps" width="24"
@@ -710,15 +752,12 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script> -->
-
-    <!-- <script src="js/main.js"></script> -->
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/test.js"></script>
 
 </body>
 
