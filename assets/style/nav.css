@@ -6,12 +6,6 @@
     background-color: #16b3ad !important;
    }
 
-.navtext:hover,.navtext:focus{
-    color: #000 !important;
-    font-weight: 700;
-    
-}
-
 .brandsubtext {
     margin-top: -10px !important;
     margin-bottom: 0rem !important;
@@ -31,6 +25,18 @@
 .navtext{
     color: #62550d !important;
     font-weight: 500;
+}
+.navtext-m{
+    color: #62550d !important;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.navtext-m-active{
+    color: #62550d !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #e5e1d3d8;
+    border-radius: 1rem;
 }
 
 /* must check the usage */
@@ -72,6 +78,12 @@
     border-radius: 10px; /* Rounded corners */
     font-size: 1rem; /* Increase font size */
   }
+
+  .navtext:hover,.navtext:focus,.navtext-m:hover,.navtext-m:focus{
+    color: #000 !important;
+    font-weight: 700;
+    
+}
   
   #myBtn:hover {
     background-color: #e5e1d3d8; /* Add a dark-grey background on hover */

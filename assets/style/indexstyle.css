@@ -19,9 +19,6 @@ margin-bottom: 1rem;
 }
 
 
-.img-fluid{
-  border-radius: 2rem;
-}
 /* Bootstrap Overwright  */
 
 .bi {
@@ -37,9 +34,9 @@ margin-bottom: 1rem;
 
 
 .lgcard{
-  background-color: rgb(227, 233, 231);
+  background-color:#eae4d786;
   padding: 2rem !important;
-  border: rgb(252, 251, 251) solid ;
+  border: rgba(252, 251, 251, 0.74) solid ;
   border-radius: 2rem;
   margin-bottom: 1rem;  
 }
@@ -47,7 +44,7 @@ margin-bottom: 1rem;
   /* background-color: rgb(227, 233, 231); */
   padding: rem !important;
   border: rgb(252, 251, 251) solid ;
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
   margin-bottom: 1rem;
   margin-top: 3rem;
 }
@@ -131,16 +128,15 @@ margin-bottom: 1rem;
 }
 .item{
   /* background-color: rgb(227, 233, 231); */
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
   text-align: center;
   border:#f1f2ed solid;
   margin-bottom: 1rem;
   font-weight: 500;
 }
 .item-img{
-  margin-top: rem;
   height: 285px;
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
 }
 .tags{
   font-size: 1.8rem;
